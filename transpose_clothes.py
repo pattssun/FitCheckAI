@@ -94,8 +94,7 @@ Critical Requirements:
 - Make sure the clothes appear to be worn naturally, with proper fit and drape
 
 The final image should look like the reference person wearing the exact clothes from the screenshot, with perfect body matching and natural clothing fit.""",
-                n=1,
-                size="1024x1024"
+                size="1024x1536"
             )
 
             # Calculate generation time

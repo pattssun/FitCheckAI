@@ -1,0 +1,24 @@
+2025-05-23 15:30:10,030 - __main__ - INFO - Directory setup: screenshots
+2025-05-23 15:30:10,030 - __main__ - INFO - Directory setup: references
+2025-05-23 15:30:10,030 - __main__ - INFO - Directory setup: output
+2025-05-23 15:30:10,031 - __main__ - INFO - Selected latest image: screenshots/nba.png
+2025-05-23 15:30:10,031 - __main__ - INFO - Selected latest image: references/austin.jpg
+2025-05-23 15:30:10,031 - __main__ - INFO - Processing: cloth=screenshots/nba.png, model=references/austin.jpg
+2025-05-23 15:30:10,249 - __main__ - INFO - Local image validation passed
+2025-05-23 15:30:10,249 - __main__ - INFO - Validating images using FitRoom API...
+2025-05-23 15:30:27,631 - __main__ - INFO - Model image validation successful
+2025-05-23 15:30:33,859 - __main__ - INFO - Clothes image validation successful
+2025-05-23 15:30:33,861 - __main__ - INFO - Auto-detected clothing type: full
+2025-05-23 15:30:33,862 - __main__ - INFO - Creating virtual try-on task...
+2025-05-23 15:30:41,375 - __main__ - INFO - Try-on task created successfully: 8ZZHgkdboO24W7Nv5YtG
+2025-05-23 15:30:41,380 - __main__ - INFO - Waiting for task 8ZZHgkdboO24W7Nv5YtG to complete...
+2025-05-23 15:30:41,383 - __main__ - INFO - Starting to poll task 8ZZHgkdboO24W7Nv5YtG for completion
+2025-05-23 15:30:41,694 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: CREATED, progress: 0%
+2025-05-23 15:30:44,650 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: PROCESSING, progress: 0%
+2025-05-23 15:30:47,339 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: PROCESSING, progress: 1%
+2025-05-23 15:30:51,215 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: PROCESSING, progress: 46%
+2025-05-23 15:30:55,605 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: PROCESSING, progress: 97%
+2025-05-23 15:31:00,041 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG status: COMPLETED, progress: 100%
+2025-05-23 15:31:00,041 - __main__ - INFO - Task 8ZZHgkdboO24W7Nv5YtG completed successfully
+2025-05-23 15:31:03,024 - __main__ - INFO - Result image downloaded successfully: output/fitroom_tryon_20250523_153100.png
+2025-05-23 15:31:03,027 - __main__ - INFO - Virtual try-on completed successfully in 29.16 seconds
